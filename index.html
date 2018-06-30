@@ -1,32 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>Tao's Webpage</title>
     </head>
     <body>
-        <!--First Table-->
+        <!--Classes and IDs-->
         <style>
-            div
+            #Title
             {
                 font-family: arial, sans-serif;
                 font-size: 32px;
                 font-weight: bold;
+                color: #37b2d1;
+                text-align: center;
+            }
+
+            .center
+            {
+                text-align: center;
+                color: #37b2d1;
+            }
+
+            .largefont
+            {
+                font-size: 25px;
+            }
+
+            .body
+            {
+                color: #38d1d1;
+                text-align: center;
+            }
+
+            table, th, td
+            {
+                border: 1px solid #37b2d1;
+                border-collapse: collapse;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            tr
+            {
+                border: 1px #37b2d1;
             }
         </style>
-        <h2>Body Mass Index (BMI)</h2>
-        <h3>An estimate of body fat in adults</h3>
-        <Table>
+
+        <div id="Title">
+        <h2>Welcome to my Page!</h2>
+        </div>
+        <div class="center">
+        <span class="body">This page is a recap of my summer so far in 2018.</span>
+        </div>
+        <div class="center">
+        <table>
             <tr>
-                <form>
-                    <input type="text" placeholder="Enter your weight (kg)" name="name" />
-                </form>
+                <th><a href="Tokyo.html">Tokyo</a></th>
+                <th><a href="Kagoshima.html">Tokyo</a></th>
             </tr>
-            <tr>
-                <form>
-                    <input type="text" placeholder="Enter your height (cm)" name="name" />
-                    <button>Submit</button>
-                </form>
-            </tr>
-        </Table>
+        </table>
+        </div>
     </body>
 </html>
