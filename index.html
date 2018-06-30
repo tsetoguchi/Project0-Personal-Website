@@ -6,7 +6,12 @@
     <body>
         <!--Classes and IDs-->
         <style>
-            #Title
+            body
+            {
+                background-color: #000000;
+            }
+
+            #title
             {
                 font-family: arial, sans-serif;
                 font-size: 32px;
@@ -15,6 +20,14 @@
                 text-align: center;
             }
 
+            #subtitle
+            {
+                font-family: arial, sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+                color: #37b2d1;
+                text-align: center;
+            }
             .center
             {
                 text-align: center;
@@ -50,24 +63,32 @@
             {
                 width: 50%;
             }
+
+            liststyle
+            {
+                font-family: arial, sans-serif;
+                font-size: 32px;
+                font-weight: bold;
+                text-align: left;
+                list-style-position: inside;
+                margin: auto;
+                color: #38d1d1;
+            }
         </style>
 
-        <div id="Title">
+        <div id="title">
         <h2>Welcome to my Page!</h2>
         </div>
-        <div class="center">
+        <div id="subtitle">
         <span class="body">This page is about my interest in music.</span>
         </div>
-        <div class="center">
-        <!--<table>-->
-        <!--    <tr>-->
-        <!--        <th>Summer activities and events</th>-->
-        <!--    </tr>-->
-        <!--    <tr>-->
-        <!--        <td><a href="Tokyo.html">Tokyo</a></td>-->
-        <!--        <td><a href="Kagoshima.html">Kagoshima</a></td>-->
-        <!--    </tr>-->
-        <!--</table>-->
-        </div>
+        <liststyle>
+            <h3>Explore my interests!</h3>
+            <ul>
+                <li>Production</li>
+                <li>Song Writing</li>
+                <li>My Songs</li>
+            </ul>
+        </liststyle>
     </body>
 </html>
