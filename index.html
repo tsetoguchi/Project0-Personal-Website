@@ -2,70 +2,24 @@
 <html>
     <head>
         <title>Tao's Webpage</title>
+        <link rel="stylesheet" href="indexStyle.css">
     </head>
     <body>
+        <buttons>
+            <INPUT Type="BUTTON" Value="Home" Onclick="window.location.href='index.html'">
+        </buttons>
         <!--Classes and IDs-->
-        <style>
-            body
-            {
-                background-color: #659DBD;
-            }
-
-            #title
-            {
-                font-family: arial, sans-serif;
-                font-size: 32px;
-                font-weight: bold;
-                text-align: center;
-                color: #ffffff;
-            }
-
-            #subtitle
-            {
-                font-family: arial, sans-serif;
-                font-size: 25px;
-                font-weight: bold;
-                text-align: center;
-                color: #ffffff;
-            }
-            .center
-            {
-                text-align: center;
-            }
-
-            .largefont
-            {
-                font-size: 25px;
-            }
-
-            .body
-            {
-                text-align: center;
-            }
-
-            h3, ul
-            {
-                font-family: arial, sans-serif;
-                font-size: 32px;
-                font-weight: bold;
-                text-align: left;
-                list-style-position: inside;
-                margin: auto;
-                color: #ffffff;
-            }
-        </style>
-
         <div id="title">
         <h2>Welcome to my Page!</h2>
         </div>
         <div id="subtitle">
-        <span class="body">This page is about my interest in music.</span>
+        <span class="body">This website is about my interest in music.</span>
         </div>
             <h3>Explore my interests!</h3>
             <ul>
-                <li>Production</li>
-                <li>Song Writing</li>
-                <li>My Songs</li>
+                <li><a href="Production.html">Production</a></li>
+                <li><a href="songWriting.html">Song Writing</a></li>
+                <li><a href="songs.html">Songs that I enjoy</a></li>
             </ul>
     </body>
 </html>

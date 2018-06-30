@@ -1,0 +1,63 @@
+            body
+            {
+                background-color: #659DBD;
+            }
+
+            buttons
+            {
+                text-align: center;
+                padding-top: 4%;
+            }
+
+            #title
+            {
+                font-family: arial, sans-serif;
+                font-size: 32px;
+                font-weight: bold;
+                text-align: center;
+                color: #ffffff;
+            }
+
+            #subtitle
+            {
+                font-family: arial, sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+                text-align: center;
+                color: #ffffff;
+            }
+            .center
+            {
+                text-align: center;
+            }
+
+            .largefont
+            {
+                font-size: 25px;
+            }
+
+            .body
+            {
+                text-align: center;
+            }
+
+            h3, ul
+            {
+                font-family: arial, sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: left;
+                list-style-position: inside;
+                padding-left: 38%;
+                color: #ffffff;
+            }
+
+            a:link, a:visited
+            {
+                color: #ffffff;
+            }
+
+            a:hover
+            {
+                color: #fbeec1;
+            }
