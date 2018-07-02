@@ -1,4 +1,4 @@
-$color: #daad86;
+$color: #ffffff;
 
 %text-style
     {
@@ -6,17 +6,16 @@ $color: #daad86;
         text-align: center;
     }
 
-ul
-    {
-        @extend %text-style;
-        color: $color;
-    }
-
-image
+.image
     {
         @extend %text-style;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 25%;
+    }
+
+body
+    {
+        color: white;
     }

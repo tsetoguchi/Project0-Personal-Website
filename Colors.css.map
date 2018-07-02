@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,SACI;EACI,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;;AAG1B,EACI;EAEI,KAAK,EAXL,OAAO;;AAcf,KACI;EAEI,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,GAAG",
-"sources": ["Colors.scss"],
-"names": [],
-"file": "Colors.css"
-}

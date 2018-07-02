@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,MACI;EACI,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;;AAG1B,MACI;EAEI,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,GAAG;;AAGlB,IACI;EACI,KAAK,EAAE,KAAK",
+"sources": ["bodytextimages.scss"],
+"names": [],
+"file": "bodytextimages.css"
+}
