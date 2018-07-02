@@ -1,12 +1,15 @@
+            /*Stylesheet file*/
             body
             {
                 background-color: #659DBD;
             }
 
-            buttons
+            form
             {
-                text-align: center;
-                padding-top: 4%;
+                /*text-align: center;*/
+                padding-top: 1%;
+                padding-bottom: 3%;
+                padding-left: 40%;
             }
 
             #title
@@ -60,4 +63,24 @@
             a:hover
             {
                 color: #fbeec1;
+            }
+
+            border
+            {
+                border: 5px solid white;
+            }
+
+            table
+            {
+                word-wrap: break-word;
+                font-family: arial, sans-serif;
+                border: 5px solid white;
+                border-collapse: collapse;
+                margin: auto;
+                color: #ffffff;
+            }
+
+            td, th
+            {
+                border: 2.5px solid white;
             }
