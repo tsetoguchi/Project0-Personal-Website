@@ -4,6 +4,7 @@
                 background-color: #659DBD;
             }
 
+            /*Form for the navigation bar*/
             form
             {
                 /*text-align: center;*/
@@ -12,6 +13,7 @@
                 padding-left: 40%;
             }
 
+            /*Title ID*/
             #title
             {
                 font-family: arial, sans-serif;
@@ -21,6 +23,7 @@
                 color: #ffffff;
             }
 
+            /*Sub-Title ID*/
             #subtitle
             {
                 font-family: arial, sans-serif;
@@ -29,20 +32,23 @@
                 text-align: center;
                 color: #ffffff;
             }
+
+            /*Center text class*/
             .center
             {
                 text-align: center;
             }
 
+            /*Large font class*/
             .largefont
             {
                 font-size: 25px;
             }
 
-            .body
-            {
-                text-align: center;
-            }
+            /*.body*/
+            /*{*/
+            /*    text-align: center;*/
+            /*}*/
 
             h3, ul
             {

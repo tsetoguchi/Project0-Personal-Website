@@ -1,0 +1,14 @@
+ul, image {
+  font-size: 20px;
+  text-align: center; }
+
+ul {
+  color: #daad86; }
+
+image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
+
+/*# sourceMappingURL=Colors.css.map */

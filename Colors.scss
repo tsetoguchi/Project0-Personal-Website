@@ -1,0 +1,22 @@
+$color: #daad86;
+
+%text-style
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+
+ul
+    {
+        @extend %text-style;
+        color: $color;
+    }
+
+image
+    {
+        @extend %text-style;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
