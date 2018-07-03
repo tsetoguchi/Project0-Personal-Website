@@ -36,7 +36,7 @@
             /*Center text class*/
             .center
             {
-                text-align: left;
+                text-align: center;
             }
 
             /*Large font class*/
@@ -45,14 +45,24 @@
                 font-size: 25px;
             }
 
+            /*h2*/
+            /*{*/
+            /*    font-family: arial, sans-serif;*/
+            /*    font-size: 20px;*/
+            /*    font-weight: bold;*/
+            /*    text-align: left;*/
+            /*    list-style-position: inside;*/
+            /*    padding-left: 38%;*/
+            /*    color: #ffffff;*/
+            /*}*/
+
             h3, ul
             {
                 font-family: arial, sans-serif;
                 font-size: 20px;
                 font-weight: bold;
-                text-align: left;
+                text-align: center;
                 list-style-position: inside;
-                padding-left: 38%;
                 color: #ffffff;
             }
 
@@ -95,4 +105,22 @@
             td
             {
                 border: 2.5px solid white;
+            }
+
+            @media (min-width: 1000px)
+            {
+                h2::before
+                {
+                    content: "Welcome to My Web Page!";
+                    font-family: arial, sans-serif;
+                }
+            }
+
+            @media (max-width: 999px)
+            {
+                h2::before
+                {
+                    content: "Welcome!";
+                    font-family: arial, sans-serif;
+                }
             }

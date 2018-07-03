@@ -5,33 +5,38 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     </head>
     <body>
+        <style>
+            .underlined
+            {
+                text-decoration: underline;
+            }
+        </style>
         <!--Navigation bar buttons-->
-        <form>
-            <input Type="BUTTON" Value="Home" Onclick="window.location.href='index.html'">
-            <input Type="BUTTON" Value="Production" Onclick="window.location.href='Production.html'">
-            <input Type="BUTTON" Value="Song Writing" Onclick="window.location.href='songWriting.html'">
-            <input Type="BUTTON" Value="Songs" Onclick="window.location.href='songs.html'">
-        </form>
+        <!--<form>-->
+        <!--    <input Type="BUTTON" Value="Home" Onclick="window.location.href='index.html'">-->
+        <!--    <input Type="BUTTON" Value="Production" Onclick="window.location.href='Production.html'">-->
+        <!--    <input Type="BUTTON" Value="Song Writing" Onclick="window.location.href='songWriting.html'">-->
+        <!--    <input Type="BUTTON" Value="Songs" Onclick="window.location.href='songs.html'">-->
+        <!--</form>-->
     <head>
-        <link rel="stylesheet" href="indexStyle.css">
+        <link rel="stylesheet" href="Style.css">
         <link rel="stylesheet" href="bodytextimages.css">
     </head>
         <div id="title">
-        <h2>Welcome to my Page!</h2>
+        <h2></h2>
         </div>
         <div id="subtitle">
         <span>Here is a showcase of some of my interests!</span>
         </div>
-            <h3>Explore my interests!</h3>
             <ul>
-                <li><a href="Production.html">Production</a></li>
-                <li><a href="songWriting.html">Song Writing</a></li>
-                <li><a href="songs.html">Songs that I enjoy</a></li>
+                <li class="underlined"><a href="Production.html">Production</a></li>
+                <li class="underlined"><a href="songWriting.html">Song Writing</a></li>
+                <li class="underlined"><a href="songs.html">Songs that I enjoy</a></li>
             </ul>
         <h3 class="center">Some photos I took in June 2018!</h3>
         <table class="noborder">
-            <th class="noborder"><img class="image" src="Sakurajima.jpg"/></th>
-            <th class="noborder"><img class="image" src="Car.jpg"/></th>
+            <tr class="noborder"><img class="image" src="Sakurajima.jpg"/></tr>
+            <tr class="noborder"><img class="image" src="Car.jpg"/></tr>
         </table>
     </body>
 </html>
