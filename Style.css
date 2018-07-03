@@ -51,7 +51,6 @@
             #title, #subtitle
             {
                 color: #ffffff;
-                font-family: arial, sans-serif;
                 font-weight: bold;
                 text-align: center;
             }
@@ -65,6 +64,8 @@
             /*Sub-Title ID*/
             #subtitle
             {
+                padding-top: 1%;
+                padding-bottom: 1%;
                 font-size: 25px;
             }
 
@@ -72,6 +73,7 @@
             .center
             {
                 text-align: center;
+                color: #ffffff;
             }
 
             /*Large font class*/

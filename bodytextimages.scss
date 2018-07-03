@@ -1,23 +1,47 @@
 $color: #ffffff;
 
-%text-style
-    {
-        font-size: 20px;
-        text-align: center;
-    }
+bti {
+    %text-style
+        {
+            font-size: 20px;
+            text-align: center;
+        }
 
-.image
-    {
-        @extend %text-style;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 35%;
-    }
+    %image-style
+        {
+            max-width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-body
-    {
-        @extend %text-style;
-        color: white;
-        word-wrap: break-word;
+    .image, body
+        {
+            @extend %text-style;
+        }
+
+    .image, .smallimg
+        {
+
+        }
+
+    .image
+        {
+            @extend %image-style;
+            width: auto;
+
+        }
+
+    body
+        {
+            color: $color;
+            word-wrap: break-word;
+            text-align: center;
+        }
+
+    .smallimg
+        {
+            @extend %image-style;
+            width: 20%;
+        }
     }
