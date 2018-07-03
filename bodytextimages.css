@@ -1,4 +1,4 @@
-.image {
+.image, body {
   font-size: 20px;
   text-align: center; }
 
@@ -9,6 +9,7 @@
   width: 35%; }
 
 body {
-  color: white; }
+  color: white;
+  word-wrap: break-word; }
 
 /*# sourceMappingURL=bodytextimages.css.map */

@@ -17,5 +17,7 @@ $color: #ffffff;
 
 body
     {
+        @extend %text-style;
         color: white;
+        word-wrap: break-word;
     }

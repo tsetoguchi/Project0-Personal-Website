@@ -10,7 +10,15 @@
                 /*text-align: center;*/
                 padding-top: 0.5%;
                 padding-bottom: 0.5%;
-                padding-left: 35%;
+                padding-left: 41%;
+            }
+
+            input
+            {
+                background-color: #ffffff;
+                color: #659DBD;
+                font-weight: bold;
+                font-family: arial, sans-serif;
             }
 
             /*Title ID*/
@@ -66,6 +74,7 @@
                 color: #ffffff;
             }
 
+            /*Pseudo classes that affect the links within the list in index.html*/
             a:link, a:visited
             {
                 color: #ffffff;
@@ -76,6 +85,7 @@
                 color: #fbeec1;
             }
 
+            /*Border div*/
             border
             {
                 border: 5px solid white;
@@ -107,6 +117,7 @@
                 border: 2.5px solid white;
             }
 
+            /*The user is displayed a longer welcome message if they are viewing the page with a larger viewport*/
             @media (min-width: 1000px)
             {
                 welcome::before
@@ -131,3 +142,19 @@
                 background-color: #5687a3;
                 border: 2px solid black;
             }
+
+            /*.btn-outline-**/
+            /*{*/
+            /*    background-color: #ffffff;*/
+            /*}*/
+
+            .underlined
+            {
+                text-decoration: underline;
+            }
+
+            /*.spotify*/
+            /*{*/
+            /*    outline-style: solid;*/
+            /*    outline-color: #84bd00;*/
+            /*}*/
